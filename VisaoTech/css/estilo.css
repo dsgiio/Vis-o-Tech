@@ -1,0 +1,84 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.banner img{
+	width: 100%; /* Nova largura */
+	height: 10%;
+}
+body{
+	background-color: #f5e0f2;
+	font-family: "Open Sans Condensed", sans-serif;
+	height: 100vh;
+	position: relative;
+}
+h1{
+	color: #64045c;
+	font-family: "Archivo Black", sans-serif;
+	text-align: center;
+}
+h2{
+	margin-top: 50px;
+	color: #64045c;
+	font-family: "Archivo Black", sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+a{
+	text-decoration: none;
+	color: #64045c;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+.cabecalho {
+	background-color: #DBB6EE;
+	padding: 25px 0;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.texto,.mulheres{
+	width: 90%;
+	margin:  0 auto;
+	text-align: justify;
+}
+.nomes {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.icon {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	border-radius: 500px;
+}
+#link a{
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+	border-radius: 80px;
+	transition: all 0.3s ease; 
+	}
+	#link a:hover{
+	background-color: #460464 ;
+	}
+	
+	.footer {
+		background-color: #DBB6EE;
+		padding: 20px;
+		text-align: center;
+		color: #fff;
+		width: 100%;
+		bottom: 0;
+	}
+	.footer1 {
+		background-color: #DBB6EE;
+		padding: 20px;
+		text-align: center;
+		color: #fff;
+		width: 100%;
+		bottom: 0;
+		position: fixed;
+	}
+	.content {
+		margin-bottom: 80px; }
